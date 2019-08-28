@@ -9,7 +9,7 @@ Sample Implementation of pubnub api using javascript
     also give the functionality to hide ships and publishes message on "jack_sparrow_channel"
     
     "Execution"
-    load the controllroom.html in any brower will able to see registered ships/submarines
+    load the controllroom.html in any browser will able to see registered ships/submarines
 
  
 
@@ -19,4 +19,4 @@ Sample Implementation of pubnub api using javascript
      and provides the functionality to unhide ships by publishing message on "jack_sparrow_channel"
     
     "Execution"
-    load the jacksparow.html in any brower will able to see form to register ships and view,edit status of ships
+    load the jacksparow.html in any browser will able to see form to register ships and view,edit status of ships
