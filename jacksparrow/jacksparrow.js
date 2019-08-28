@@ -20,14 +20,22 @@ this.pubnubDemo.addListener({
 function publishShip(){
     console.log(checkShipAlreadyExists())
     if(!checkShipAlreadyExists()){
+    var message={'name':document.getElementById("shipName").value,'hide':false}
     this.pubnubDemo.publish({
-        message: {'name':document.getElementById("shipName").value,'hide':false},
+        message: message,
         channel: 'ship_control_channel'
     });
     alert("ShipName registered")
+    copyShip(message)
     }else{
         alert("ShipName Invalid")
    }
+}
+
+function copyShip(message){
+    submerines=JSON.parse(localStorage.getItem('shipRegistry'))
+    submerines.push(message)
+    localStorage.setItem('shipRegistry', JSON.stringify(submerines))
 }
 
 function checkShipAlreadyExists(){
