@@ -5,10 +5,10 @@ Sample Implementation of pubnub api using javascript
 
 ## Control Room ##
 
-    Shows the list of submaries registered by ```ship_control_channel```
-    also give the functionality to hide ships and publishes message on ```jack_sparrow_channel```
+    Shows the list of submaries registered by ```javascript ship_control_channel```
+    also give the functionality to hide ships and publishes message on ```javascript jack_sparrow_channel```
     
-    ```Execution```
+    ```javascript Execution```
     load the controllroom.html in any brower will able to see registered ships/submarines
 
  
