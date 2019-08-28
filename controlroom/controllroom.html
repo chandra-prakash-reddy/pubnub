@@ -1,0 +1,26 @@
+<html>
+<head>
+    <style>
+        th, td, p, input {
+            font:14px Verdana;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body onload="loadShips();">
+<h1>ControlRoom</h1>
+<span>submirines </span>
+<p id="showData"></p>
+</body>
+<script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.21.7.js"></script>
+<script src="controllroom.js"></script>
+</html>
