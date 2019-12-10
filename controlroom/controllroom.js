@@ -1,6 +1,8 @@
+localStorage.setItem('shipRegistry', JSON.stringify([]))
 var pubnubDemo = new PubNub({
     publishKey: 'pub-c-33f17ed3-9580-447d-a574-70ccd617b7b3',
-    subscribeKey: 'sub-c-77570070-c8c1-11e9-8ada-366022f02051'
+    sub
+scribeKey: 'sub-c-77570070-c8c1-11e9-8ada-366022f02051'
 });
 
 this.pubnubDemo.subscribe({
